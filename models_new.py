@@ -23,6 +23,12 @@ a list of models:
     cifar_exits_train:          cifar with early-exits for training
     cifar_exits_eval:           cifar with early-exits for evaluation
     cifar_normal:               cifar without early-exits
+    vgg_exits_train:            vgg with early-exits for training
+    vgg_exits_eval:             vgg with early-exits for evaluation
+    vgg_normal:                 vgg without early-exits
+    vgg19_exits_train:          vgg19 with early-exits for training
+    vgg19_exits_eval:           vgg19 with early-exits for evaluation
+    vgg19_normal:               vgg19 without early-exits
 '''
 
 
