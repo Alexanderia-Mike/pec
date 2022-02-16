@@ -13,7 +13,7 @@ header-includes:
 ---
 
 
-<table>
+<table align="center">
   <thead align="center">
     <tr align="center">
       <th colspan="3" align="center"> Authors </th>
