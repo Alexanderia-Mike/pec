@@ -46,12 +46,24 @@ the different types of neural network models
 training of neural networks
 - `utils_new.py`  
 some general functions
-- `power_management_api`  
-the APIs that deal with hardwares in the embedded board Jetson TX2
+- `power_management_api/`  
+    - `api.py`  
+    the APIs that deal with hardwares in the embedded board Jetson TX2
+    - `README.md`  
+    the detailed introductions for api functions
+- `scripts/`
+    - `inference_with_beta.sh`  
+    the shell script that do the inference tasks with different `beta` parameters
+    - `testcases.sh`  
+    the shell script that does all the tests specified in our report
+    - `train_inference.sh`  
+    the shell script that does the training and then the inference task
 - `create_custom_dataloader`  
 the functions to create customized dataloaders
 - `generate_scripts.py`  
 the python program to generate shell scripts for testings automatically. Except for only very few cases, this file is useless. Feel free to delete it
+- `README.md`
+this file
 
 ### Run the Codes
 
