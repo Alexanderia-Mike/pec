@@ -89,7 +89,6 @@ Their meanings are specified as below. Note that not all arguments are meaningfu
 - `DEVICE`: the device where the training and inference is executed. Either 'cpu' or 'cuda'
 - `SUFFIX`: when `SAVE` is non-zero, the model would be saved in a .pt file whose name consists of some some setting parameters and the string `SUFFIX`. This option is set mainly used to differentiate files under the same hyperparameters, so that they do not overwrite each other.
 - `BETA`: the hyperparameter to control the tradeoff between accuracy and speed-up in early-exit scheme. Refer to the paper or our report for more details
-- 
 - `SAVE`: if non-zero, then save the model, otherwise does not save the model
 - `BASELINE`: an integer, to specify whether or not the current test is baseline (1 for true and 0 for false)
 - `CORE_NUM`: the number of gpu cores that are used to do the infrence task. It can only be either 2 or 4.
