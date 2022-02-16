@@ -58,6 +58,8 @@ some general functions
     the shell script that does all the tests specified in our report
     - `train_inference.sh`  
     the shell script that does the training and then the inference task
+- `models_new/`  
+the directory that stores all the models
 - `create_custom_dataloader`  
 the functions to create customized dataloaders
 - `generate_scripts.py`  
