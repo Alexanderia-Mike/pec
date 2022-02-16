@@ -40,7 +40,7 @@ network initializations, the training and evaluation hyperparameters, the hardwa
 inference of trained neural networks
 - `main_new.py`  
 the main program
-- `model.py`  
+- `models_new.py`  
 the different types of neural network models
 - `train_new.py`  
 training of neural networks
